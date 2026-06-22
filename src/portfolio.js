@@ -20,26 +20,23 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "Saif Romdhane",
+  title: "Hi all, I'm Saif",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "a Software Engineering student specializing in Software Architecture, with a solid foundation built across web development, mobile applications, and AI integration. "
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1Bhe8Fa3gvBV8VTEbwn1ghvp7yKL5I4TG/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  github: "https://github.com/SaifRomdhaneTN",
+  linkedin: "https://linkedin.com/in/saif-eddine-romdhane-879a8b21a",
+  gmail: "saif.romtn@gmail.com",
+  
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -49,72 +46,61 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "PASSIONATE SOFTWARE ENGINEER EXPLORING FULL STACK DEVELOPMENT AND ARTIFICIAL INTELLIGENCE",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Building interactive and responsive Full stack applications using React + Laravel or ASP.net Core + React, with a focus on clean code and efficient architecture"
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "⚡ Developing cross-platform mobile apps with Flutter, integrated with secure back-ends and REST APIs"
+    ),
+    emoji(
+      "⚡ Crafting robust server-side systems and dynamic microservices using Laravel, Django, Symfony, and Spring Boot"
+    ),
+    emoji(
+      "⚡ Implementing Machine Learning models and Computer Vision solutions like CNNs and ResNet50 for real-world automation"
     )
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
-https://fontawesome.com/icons?d=gallery */
+  https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
-    },
-    {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
-    },
-    {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
-    },
-    {
-      skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
-    },
-    {
-      skillName: "reactjs",
+      skillName: "ReactJS",
       fontAwesomeClassname: "fab fa-react"
     },
     {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
+      skillName: "ASP.NET Core",
+      fontAwesomeClassname: "fas fa-code" // FontAwesome 5 doesn't have a dedicated free .NET/ASP.NET brand icon, "fas fa-code" or "fas fa-cubes" works perfectly as a fallback
     },
     {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
+      skillName: "Flutter",
+      fontAwesomeClassname: "fas fa-mobile-alt" // Exact match for your Flutter brand icon!
     },
     {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
+      skillName: "Laravel",
+      fontAwesomeClassname: "fab fa-laravel"
+    },
+    {
+      skillName: "Python",
+      fontAwesomeClassname: "fab fa-python"
+    },
+    {
+      skillName: "Java",
+      fontAwesomeClassname: "fab fa-java"
     },
     {
       skillName: "sql-database",
       fontAwesomeClassname: "fas fa-database"
     },
     {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
-    },
-    {
       skillName: "firebase",
       fontAwesomeClassname: "fas fa-fire"
     },
     {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
-    },
-    {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
+      skillName: "git",
+      fontAwesomeClassname: "fab fa-git-alt"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -126,23 +112,29 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      schoolName: "Higher Institute of Applied Science and Technology of Sousse (ISSAT Sousse)",
+      logo: require("./assets/images/issatso.jpg"),
+      subHeader: "National Engineering Degree in Software Engineering",
+      duration: "September 2024 - september 2026",
+      
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Currently a member of NATEG ISSAT Sousse (North American Tunisian Engineers Group) ",
       ]
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      schoolName: "Higher Institute of Applied Sciences and Technology of Mahdia (ISSAT Mahdia)",
+      logo: require("./assets/images/issatm.jpg"),
+      subHeader: " Master’s Degree in Artificial Intelligence and Internet of Things    ",
+      duration: "September 2023 - June 2024",
+      desc: "Spent only 1 year before applying in the examination for engineering programs in Tunisia and got accepted in ISSAT Sousse",
+      descBullets: ["Was an active memeber in Atast Issat Mahdia ( Tunisian Association for the Future of Sciences and Technology ) "]
+    },
+    {
+      schoolName: "Higher Institute of Technological Studies of Sousse (ISET Sousse)",
+      logo: require("./assets/images/isetso.jpg"),
+      subHeader: " Bachelor’s Degree, Information Technology, specializing in Information Systems Development      ",
+      duration: "September 2020 - july 2023",
+      descBullets: ["Was a member & Lead in GDSC (currently known as GDG on Campus) "]
     }
   ]
 };
@@ -153,15 +145,15 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
+      Stack: "Web Development", //Insert stack or technology you have experience in
       progressPercentage: "90%" //Insert relative proficiency in percentage
     },
     {
-      Stack: "Backend",
-      progressPercentage: "70%"
+      Stack: "Mobile App Development",
+      progressPercentage: "80%"
     },
     {
-      Stack: "Programming",
+      Stack: "Machine Learning and AI",
       progressPercentage: "60%"
     }
   ],
@@ -174,30 +166,40 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "Software Engineer Intern",
+      company: "Wifak Bank International",
+      companylogo: require("./assets/images/wifak.png"),
+      date: "january 2026 – present",
+      desc: "Developing a Fullstack Web application wifak-Imatch for customer and transaction compliance monitoring  using ASP.NET Core. The application is designed to streamline the compliance process and enhance operational efficiency.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "This Internship is part of the National Engineering Degree program in Software Engineering at ISSAT Sousse, acting as a final project to apply theoretical knowledge in a real-world setting. (PFE)",
+        "This internship was done remotely, allowing for flexible work arrangements and the opportunity to collaborate with a diverse team of professionals."
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Software Engineering Intern",
+      company: "SW-Consulting",
+      companylogo: require("./assets/images/sw_consulting.jpg"), // Update path if needed
+      date: "August 2025 – September 2025",
+      desc: "Developed a dynamic data management mini-service designed to seamlessly import and export data from and into a database. The application featured a user-friendly UI/UX to ensure a clean and intuitive user experience.",
+      descBullets: [
+        "Built an interactive and highly responsive front-end interface using React.",
+        "Designed and implemented robust back-end server logic using the Laravel framework to handle dynamic data manipulation."
+      ]
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    }
+      role: "Software Engineering Intern",
+      company: "Carthage Solutions",
+      companylogo: require("./assets/images/carthage_solutions.jpg"), // Update path if needed
+      date: "January 2023 – June 2023",
+      desc: "Created 'Food Doctor', an agricultural mobile application designed to scan consumable products and analyze them to determine compatibility with individual user preferences.",
+      descBullets: [
+        "Served as the End-of-Studies Project (PFE) for my Bachelor's Degree in Information Technology from ISET-Sousse.",
+        "Developed a cross-platform mobile application using Flutter, delivering a smooth experience across devices.",
+        "Integrated Firebase for secure user management and authenticated real-time data handling.",
+        "Connected multiple external REST APIs to source and deliver real-time data analysis efficiently."
+      ]
+    },
   ]
 };
 
@@ -239,71 +241,74 @@ const bigProjects = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Achievement Section
 // Include certificates, talks etc
 
+
 const achievementSection = {
-  title: emoji("Achievements And Certifications 🏆 "),
+  title: emoji("Achievements And Certifications 🏆"),
   subtitle:
-    "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
+    "Certifications, learning milestones, and professional achievements that reflect my growth in software engineering, AI, UX design, and communication.",
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
+      title: "Machine Learning Summer School 2025",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
-      imageAlt: "Google Code-In Logo",
+        "Completed the Cohere Labs Open Science Community Machine Learning Summer School, a learning program focused on modern machine learning, foundation models, retrieval, multimodal learning, and AI research topics.",
+      image: require("./assets/images/cohere.jpg"),
+      imageAlt: "Cohere Labs Logo",
       footerLink: [
         {
-          name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
+          name: "View Certification",
+          url: "https://credsverse.com/credentials/70ebef01-2d93-48d7-9f11-fd4aac1fbb6e"
         },
         {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
+          name: "Program Page",
+          url: "https://labscommunity.cohere.com/community-programs/archive/summer-school"
         }
       ]
     },
     {
-      title: "Google Assistant Action",
+      title: "Foundations of User Experience (UX) Design",
       subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      imageAlt: "Google Assistant Action Logo",
+        "Completed Google's Foundations of User Experience (UX) Design certificate, covering the basics of user-centered design, UX research, wireframes, prototypes, and accessible digital product experiences.",
+      image: require("./assets/images/google.jpg"),
+      imageAlt: "Google Logo",
       footerLink: [
         {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
+          name: "View Certification",
+          url: "https://www.coursera.org/account/accomplishments/verify/XS92R332XTTM"
+        },
+        {
+          name: "Issuer",
+          url: "https://www.coursera.org/"
         }
       ]
     },
-
     {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      imageAlt: "PWA Logo",
+      title: "Certificate of English Level — CEFR C1",
+      subtitle:
+        "Earned a CEFR C1 English level certificate from Imperial English UK, demonstrating advanced English communication skills for academic and professional environments. \n When viewing the certtificate on the issuer's website, enter this id 7036911",
+      image: require("./assets/images/imperial.png"),
+      imageAlt: "Imperial English UK Logo",
       footerLink: [
-        {name: "Certification", url: ""},
         {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
+          name: "View Certification ",
+          url: "https://digital-english-test.com/verification"
+        },
+        {
+          name: "Issuer Website",
+          url: "https://imperial-english.com/"
         }
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
-};
 
-// Blogs Section
+  display: true
+};
 
 const blogSection = {
   title: "Blogs",
@@ -324,7 +329,7 @@ const blogSection = {
         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -343,7 +348,7 @@ const talkSection = {
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -356,7 +361,7 @@ const podcastSection = {
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Resume Section
@@ -372,18 +377,18 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+  number: "+216 55 540 893",
+  email_address: "saif.romtn@gmail.com"
 };
 
 // Twitter Section
 
 const twitterDetails = {
   userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  display: false // Set true to display this section, defaults to false
 };
 
-const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
+const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
 
 export {
   illustration,
